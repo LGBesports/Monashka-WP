@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,MAAM,EAAC,SAAS,EAAE,MAAM;EACpB,AAAA,WAAW,CAAA;IACP,MAAM,EAAE,KAAK,CAAA,UAAU;GAC1B;EACD,AAAA,OAAO,CAAA;IACH,MAAM,EAAE,MAAM,CAAA,UAAU;GAC3B",
+    "sources": [
+        "monashka.scss"
+    ],
+    "names": [],
+    "file": "monashka.css"
+}

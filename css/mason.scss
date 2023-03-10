@@ -1,0 +1,344 @@
+.radio_buttons input:checked + label {
+    background: rgba(255, 255, 255, 0);
+    text-decoration: underline;
+}
+.form .data input {
+    background: rgba(0, 0, 0, 0);
+}
+.form .data input::placeholder {
+    color: rgba(255, 255, 255, 0.726);
+}
+.form form input {
+    color: #fff;
+    border-bottom: 1px solid #4e4c4c;
+}
+.radio_buttons label {
+    display: block;
+    margin: 0 0 0 -1px;
+    padding: 8px 10px;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-size: 23px;
+    line-height: 27px;
+    cursor: pointer;
+    color: #fff;
+}
+.form__title {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    max-width: 540px;
+    color: #fff;
+}
+.mason-canvas .mason-first {
+    position: absolute;
+    top: 25vmin;
+    text-align: right;
+    font-size: 4vmin;
+    width: 40vw;
+    height: auto;
+    color: #ffffff;
+    left: 0vw;
+}
+.zfuck {
+    z-index: 999;
+}
+.mason-canvas .mason-second {
+    position: absolute;
+    top: 45vmin;
+    text-align: right;
+    font-size: 4vmin;
+    width: 50vw !important;
+    height: auto;
+    color: #ffffff;
+    right: 3vw;
+}
+.mason-canvas .mason-third {
+    position: absolute;
+    top: 45vmin;
+    text-align: right;
+    font-size: 4vmin;
+    width: 50vw !important;
+    height: auto;
+    color: #ffffff;
+    right: 4vw;
+}
+.form button {
+    width: 220px;
+    height: 55px;
+    border: 1px solid #ffffff;
+    border-radius: 27.5px;
+    background: rgba(255, 255, 255, 0);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #fff;
+}
+.form .radio__button p {
+    margin-left: 150px;
+    color: #fff;
+}
+.bubles__cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 45px;
+    margin-top: 0px;
+    padding-bottom: 10vh;
+}
+.null {
+    background: #1a1a1a;
+    border-radius: 20px;
+}
+.bubles {
+    padding-top: 120px;
+}
+.bubles__reborn {
+    display: none;
+}
+.change281 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason1.webp);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomOut 0.8s;
+}
+.change281:hover {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason1-hover.webp);
+    background-repeat: no-repeat;
+    background-position: center -16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomIn 1s;
+    z-index: 5;
+}
+.change29 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason2.webp);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomOut 0.8s;
+}
+.change29:hover {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason2-hover.webp);
+    background-repeat: no-repeat;
+    background-position: center -16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomIn 1s;
+    z-index: 5;
+}
+.change30 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason3.webp);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomOut 0.8s;
+}
+.change30:hover {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason3-hover.webp);
+    background-repeat: no-repeat;
+    background-position: center -16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomIn 1s;
+    z-index: 5;
+}
+.change31 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason4.webp);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomOut 0.8s;
+}
+.change31:hover {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason4-hover.webp);
+    background-repeat: no-repeat;
+    background-position: center -16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomIn 1s;
+    z-index: 5;
+}
+.change32 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason5.webp);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomOut 0.8s;
+}
+.change32:hover {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason5-hover.webp);
+    background-repeat: no-repeat;
+    background-position: center -16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomIn 1s;
+    z-index: 5;
+}
+.change33 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason6.webp);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomOut 0.8s;
+}
+.change33:hover {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason6-hover.webp);
+    background-repeat: no-repeat;
+    background-position: center -16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomIn 1s;
+    z-index: 5;
+}
+.change34 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason7.webp);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomOut 0.8s;
+}
+.change34:hover {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason7-hover.webp);
+    background-repeat: no-repeat;
+    background-position: center -16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomIn 1s;
+    z-index: 5;
+}
+.change35 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason8.webp);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomOut 0.8s;
+}
+.change35:hover {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason8-hover.webp);
+    background-repeat: no-repeat;
+    background-position: center -16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomIn 1s;
+    z-index: 5;
+}
+.change36 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason9.webp);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomOut 0.8s;
+}
+.change36:hover {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mason9-hover.webp);
+    background-repeat: no-repeat;
+    background-position: center -16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: zoomIn 1s;
+    z-index: 5;
+}

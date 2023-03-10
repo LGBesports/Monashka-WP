@@ -1,0 +1,337 @@
+.firstchat {
+    height: 2048px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // .firstchat__pinapple-l
+    position: relative;
+
+    z-index: -1;
+    &__pinapple-left {
+        position: absolute;
+        bottom: 0;
+        left: -120px;
+        z-index: 0;
+    }
+    &__pinapple-right {
+        position: absolute;
+        bottom: -180px;
+        right: -220px;
+        z-index: 0;
+    }
+    &__reborn {
+        position: absolute;
+        bottom: 0;
+        right: 250px;
+        z-index: 0;
+    }
+    &__bottle {
+        position: absolute;
+        bottom: calc(50% - 340px);
+        right: 150px;
+        z-index: 0;
+    }
+    &__bottle2 {
+        position: absolute;
+        bottom: calc(50% - 340px);
+        right: 170px;
+        z-index: 0;
+    }
+}
+.scroll {
+    top: 0;
+    height: 2524px !important;
+    z-index: 10;
+}
+.messagebox img {
+    width: 100%;
+    height: 100%;
+}
+.messagebox2 img {
+    width: 100%;
+    height: 100%;
+}
+.message1 {
+    width: 434px;
+    height: 55px;
+    z-index: 0;
+}
+.message2 {
+    width: 700px;
+    height: 180px;
+    z-index: 0;
+}
+.message3 {
+    width: 330px;
+    height: 55px;
+    z-index: 0;
+}
+.message4 {
+    width: 700px;
+    height: 150px;
+    z-index: 0;
+}
+.message5 {
+    width: 550px;
+    height: 55px;
+    z-index: 0;
+}
+.message6 {
+    width: 350px;
+    height: 150px;
+    z-index: 0;
+}
+.message7 {
+    width: 350px;
+    height: 182px;
+    z-index: 0;
+}
+.message8 {
+    width: 300px;
+    height: 55px;
+    z-index: 0;
+}
+.message9 {
+    width: 700px;
+    height: 150px;
+    z-index: 0;
+}
+.message10 {
+    width: 710px;
+    height: 255px;
+    z-index: 0;
+}
+.message10-1 {
+    width: 400px;
+    height: 55px;
+    z-index: 0;
+}
+.message10-2 {
+    width: 700px;
+    height: 130px;
+    z-index: 0;
+}
+.message10-3 {
+    width: 650px;
+    height: 70px;
+    z-index: 0;
+}
+.message10-4 {
+    width: 700px;
+    height: 80px;
+    z-index: 0;
+}
+.message10-5 {
+    width: 420px;
+    height: 55px;
+    z-index: 0;
+}
+.message10-6 {
+    width: 650px;
+    height: 55px;
+    z-index: 0;
+}
+.message10-7 {
+    width: 700px;
+    height: 80px;
+    z-index: 0;
+}
+.message10-8 {
+    width: 400px;
+    height: 55px;
+    z-index: 0;
+}
+.message100 {
+    width: 710px;
+    height: 127px;
+    z-index: 0;
+    display: none;
+}
+.message100-1 {
+    width: 400px;
+    height: 27px;
+    z-index: 0;
+    display: none;
+}
+.message100-2 {
+    width: 700px;
+    height: 65px;
+    z-index: 0;
+    display: none;
+}
+.message100-3 {
+    width: 650px;
+    height: 35px;
+    z-index: 0;
+    display: none;
+}
+.message100-4 {
+    width: 700px;
+    height: 40px;
+    z-index: 0;
+    display: none;
+}
+.message100-5 {
+    width: 420px;
+    height: 27px;
+    z-index: 0;
+    display: none;
+}
+.message100-6 {
+    width: 650px;
+    height: 27px;
+    z-index: 0;
+    display: none;
+}
+.message100-7 {
+    width: 700px;
+    height: 40px;
+    z-index: 0;
+    display: none;
+}
+.message100-8 {
+    width: 400px;
+    height: 27px;
+    z-index: 0;
+    display: none;
+}
+.message11 {
+    width: 393px;
+    height: 66px;
+    z-index: 0;
+    display: none;
+}
+.message22 {
+    width: 402px;
+    height: 69px;
+    z-index: 0;
+    display: none;
+}
+.message33 {
+    width: 449px;
+    height: 61px;
+    z-index: 0;
+    display: none;
+}
+.message44 {
+    width: 231px;
+    height: 227px;
+    z-index: 0;
+    display: none;
+}
+.message55 {
+    width: 255px;
+    height: 69px;
+    z-index: 0;
+    display: none;
+}
+.message66 {
+    width: 653px;
+    height: 215px;
+    z-index: 0;
+    display: none;
+}
+.message77 {
+    width: 306px;
+    height: 61px;
+    z-index: 0;
+    display: none;
+}
+.message88 {
+    width: 403px;
+    height: 66px;
+    z-index: 0;
+    display: none;
+}
+.message99 {
+    width: 447px;
+    height: 88px;
+    z-index: 0;
+    display: none;
+}
+.message100 {
+    width: 487px;
+    height: 66px;
+    z-index: 0;
+    display: none;
+}
+.message111,
+.message222,
+.message333,
+.message444,
+.message555,
+.message666,
+.message777,
+.message888,
+.message999,
+.message1000,
+.message1000-1,
+.message1000-2,
+.message1000-3,
+.message1000-4,
+.message1000-5,
+.message1000-6,
+.message1000-7,
+.message1000-8 {
+    display: none;
+}
+
+.bg1 {
+    z-index: 0;
+    height: 1262px;
+}
+.bg2 {
+    z-index: 0;
+    top: 1262px;
+    background: url(../img/bg2-chat.webp) !important;
+    background-repeat: repeat;
+    height: 1262px;
+}
+.mainn {
+    margin-top: 476px;
+}
+.messagebox {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.08) 0%,
+        rgba(196, 196, 196, 0) 2.6%,
+        rgba(196, 196, 196, 0) 97.4%,
+        rgba(0, 0, 0, 0.08) 100%
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 1262px !important;
+    z-index: 500;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 578px);
+}
+.messagebox2 {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.08) 0%,
+        rgba(196, 196, 196, 0) 2.6%,
+        rgba(196, 196, 196, 0) 97.4%,
+        rgba(0, 0, 0, 0.08) 100%
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 1262px !important;
+    z-index: 500;
+    position: absolute;
+    top: 1262px;
+    left: calc(50% - 578px);
+}
+.scrollDist {
+    top: -30%;
+    z-index: 1000;
+}
+.header {
+}
